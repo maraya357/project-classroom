@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Inter';
+    background-color: #0A2239;
 }
 
 .submission-form {
@@ -10,9 +11,26 @@ body {
     display: block;
 }
 
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+}
+
+p {
+    margin-left: 20px;
+    font-weight: 400;
+    color: #D3924A;
+    font-size: 16px;
+}
+
 label {
+    font-weight: 500;
     padding: .5rem 0;
     font-size: 14px;
+    color: #D3924A;
 }
 
 input,
@@ -22,9 +40,21 @@ textarea {
     border-radius: 5px;
 }
 
+textarea {
+    resize: none;
+}
+
+.file-color {
+    color: white;
+}
+
+div {
+    margin-left: 30px;
+}
+
 #submit-btn {
     border: 0;
-    background-color: rgb(187, 113, 16);
+    background-color: #D3924A;
     padding: 12px 32px;
     color: white;
     margin: 1rem 0rem;
@@ -37,27 +67,5 @@ textarea {
 }
 
 .border-color {
-    border: 2px solid rgb(187, 113, 16);
-}
-
-p,
-label {
-    color: rgb(187, 113, 16);
-}
-
-h1 {
-    color: white;
-
-}
-
-body {
-    background-color: #1c2a39;
-}
-
-.file-color {
-    color: white;
-}
-
-div {
-    margin-left: 30px;
+    border: 2px solid #D3924A;
 }
