@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project02</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <h1>Apply for the position</h1>
+    <p>Fill the form below with your information.</p>
+    <form class="submission-form" action="results.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label>
+            <input class="border-color ds-block" type="name" id="name" placeholder="Enter your name" required>
+        </div>
+        <br>
+        <div>
+            <label for="lastname">Lastname</label>
+            <input class="border-color ds-block" type="lastname" id="lastname" placeholder="Enter your lastname"
+                required>
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone</label>
+            <input class="border-color ds-block" type="tel" name="phone" id="phone" placeholder="Enter your phone">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input class="border-color ds-block" type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <br>
+        <div>
+            <label for="file">Upload your CV</label>
+            <input class="file-color ds-block" type="file" name="file" id="file">
+        </div>
+        <br>
+        <div>
+            <label for="subject">Subject</label>
+            <input class="border-color ds-block" type="subject" id="subject" placeholder="Enter subject">
+        </div>
+        <br>
+        <div>
+            <label for="text">Add message</label>
+            <br>
+            <textarea class="border-color ds-block" name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="notify-me" id="notify-me">
+            <label for="notify-me">Notify me by email</label>
+        </div>
+        <div> <input type="submit" value="Apply" id="submit-btn">
+
+    </form>
+</body>
+
+</html>

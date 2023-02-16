@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.submission-form {
+    box-sizing: border-box;
+}
+
+.ds-block {
+    display: block;
+}
+
+label {
+    padding: .5rem 0;
+    font-size: 14px;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#submit-btn {
+    border: 0;
+    background-color: rgb(187, 113, 16);
+    padding: 12px 32px;
+    color: white;
+    margin: 1rem 0rem;
+    width: auto;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: blue;
+}
+
+.border-color {
+    border: 2px solid rgb(187, 113, 16);
+}
+
+p,
+label {
+    color: rgb(187, 113, 16);
+}
+
+h1 {
+    color: white;
+
+}
+
+body {
+    background-color: #1c2a39;
+}
+
+.file-color {
+    color: white;
+}
+
+div {
+    margin-left: 30px;
+}
